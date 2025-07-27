@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d out --repo https://github.com/narasimhakarthik2/gayathri-hospital.git"
+    "deploy": "node deploy-simple.js"
   },
   "dependencies": {
     "framer-motion": "^10.16.16",
