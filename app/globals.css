@@ -39,11 +39,11 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-maroon-600 hover:bg-maroon-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
+    @apply bg-hospital-600 hover:bg-hospital-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
   }
   
   .btn-secondary {
-    @apply bg-white hover:bg-gray-50 text-maroon-600 font-semibold py-3 px-6 rounded-lg border-2 border-maroon-600 transition-all duration-300 transform hover:scale-105;
+    @apply bg-white hover:bg-gray-50 text-hospital-600 font-semibold py-3 px-6 rounded-lg border-2 border-hospital-600 transition-all duration-300 transform hover:scale-105;
   }
   
   .btn-accent {
@@ -59,11 +59,11 @@
   }
   
   .gradient-bg {
-    background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 50%, #b91c1c 100%);
+    background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%);
   }
   
-  .maroon-gradient {
-    background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 50%, #b91c1c 100%);
+  .hospital-gradient {
+    background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%);
   }
   
   .logo-gradient-bg {
