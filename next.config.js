@@ -5,7 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://narasimhakarthik2.github.io/gayathri-hospital' : '',
 }
 
 module.exports = nextConfig;
