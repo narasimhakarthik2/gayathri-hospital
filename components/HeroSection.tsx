@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#0ea5e9] via-[#0284c7] to-[#0369a1] opacity-95"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-primary-300 via-primary-400 to-primary-500 opacity-95"></div>
       <div className="absolute inset-0 bg-black/10"></div>
       
       {/* Content */}

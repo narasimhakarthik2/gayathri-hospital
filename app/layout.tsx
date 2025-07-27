@@ -1,5 +1,5 @@
 import React from 'react'
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -7,8 +7,12 @@ export const metadata: Metadata = {
   description: 'Gayathri Hospital provides world-class healthcare services with state-of-the-art facilities and experienced medical professionals. Your health, our priority.',
   keywords: 'hospital, healthcare, medical services, doctors, emergency care, surgery, diagnostics',
   authors: [{ name: 'Gayathri Hospital' }],
-  viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({

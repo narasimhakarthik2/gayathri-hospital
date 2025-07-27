@@ -59,15 +59,15 @@
   }
   
   .gradient-bg {
-    background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%);
+    background: linear-gradient(135deg, #aad6df 0%, #8bc4d0 50%, #6bb2c1 100%);
   }
   
   .hospital-gradient {
-    background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%);
+    background: linear-gradient(135deg, #aad6df 0%, #8bc4d0 50%, #6bb2c1 100%);
   }
   
   .logo-gradient-bg {
-    background: linear-gradient(135deg, #3b82f6 0%, #14b8a6 25%, #10b981 50%, #f59e0b 75%, #f97316 100%);
+    background: linear-gradient(135deg, #aad6df 0%, #14b8a6 25%, #10b981 50%, #f59e0b 75%, #f97316 100%);
   }
   
   .card-hover {

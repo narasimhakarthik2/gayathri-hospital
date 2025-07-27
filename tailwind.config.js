@@ -9,16 +9,16 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          50: '#eff6ff',
-          100: '#dbeafe',
-          200: '#bfdbfe',
-          300: '#93c5fd',
-          400: '#60a5fa',
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
-          800: '#1e40af',
-          900: '#1e3a8a',
+          50: '#f0f9fa',
+          100: '#e0f3f6',
+          200: '#c1e7ed',
+          300: '#aad6df',
+          400: '#8bc4d0',
+          500: '#6bb2c1',
+          600: '#5a9fb0',
+          700: '#4a8c9f',
+          800: '#3a798e',
+          900: '#2a667d',
         },
         secondary: {
           50: '#f8fafc',
@@ -34,7 +34,7 @@ module.exports = {
         },
         accent: {
           // Vibrant colors from the logo flower
-          blue: '#3b82f6',
+          blue: '#aad6df',
           teal: '#14b8a6',
           green: '#10b981',
           yellow: '#f59e0b',
@@ -44,22 +44,22 @@ module.exports = {
           pink: '#ec4899',
         },
         hospital: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          200: '#bae6fd',
-          300: '#7dd3fc',
-          400: '#38bdf8',
-          500: '#0ea5e9',
-          600: '#0284c7',
-          700: '#0369a1',
-          800: '#075985',
-          900: '#0c4a6e',
+          50: '#f0f9fa',
+          100: '#e0f3f6',
+          200: '#c1e7ed',
+          300: '#aad6df',
+          400: '#8bc4d0',
+          500: '#6bb2c1',
+          600: '#5a9fb0',
+          700: '#4a8c9f',
+          800: '#3a798e',
+          900: '#2a667d',
         },
         logo: {
-          background: '#0ea5e9', // Light blue background
+          background: '#aad6df', // Updated light blue background
           hands: '#ffffff', // White hands
           flower: {
-            blue: '#3b82f6',
+            blue: '#aad6df',
             teal: '#14b8a6',
             green: '#10b981',
             yellow: '#f59e0b',
@@ -97,7 +97,7 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'logo-gradient': 'linear-gradient(135deg, #3b82f6 0%, #14b8a6 25%, #10b981 50%, #f59e0b 75%, #f97316 100%)',
+        'logo-gradient': 'linear-gradient(135deg, #aad6df 0%, #14b8a6 25%, #10b981 50%, #f59e0b 75%, #f97316 100%)',
       },
     },
   },

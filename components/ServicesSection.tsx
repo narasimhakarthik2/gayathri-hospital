@@ -78,10 +78,10 @@ const ServicesSection = () => {
                 
                 {/* Content */}
                 <div className="relative z-10">
-                  <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl flex items-center justify-center text-white mb-6 shadow-lg group-hover:scale-110 transition-transform duration-500">
+                  <div className="w-16 h-16 bg-gradient-to-br from-primary-300 to-primary-400 rounded-xl flex items-center justify-center text-white mb-6 shadow-lg group-hover:scale-110 transition-transform duration-500">
                     {service.icon}
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-primary-700 transition-colors duration-300">
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-primary-500 transition-colors duration-300">
                     {service.title}
                   </h3>
                   <p className="text-gray-600 mb-6 leading-relaxed">
@@ -90,7 +90,7 @@ const ServicesSection = () => {
                   <ul className="space-y-3">
                     {service.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center text-sm text-gray-600 group-hover:text-gray-700 transition-colors duration-300">
-                        <CheckCircle className="w-4 h-4 text-primary-500 mr-3 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
+                        <CheckCircle className="w-4 h-4 text-primary-300 mr-3 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                         {feature}
                       </li>
                     ))}

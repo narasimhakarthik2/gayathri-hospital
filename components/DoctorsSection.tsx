@@ -68,7 +68,7 @@ const DoctorsSection = () => {
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                   </div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-primary-700 transition-colors duration-300">
+                  <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-primary-500 transition-colors duration-300">
                     {doctor.name}
                   </h3>
                   <p className="text-primary-600 font-medium mb-2">{doctor.specialty}</p>

@@ -37,19 +37,19 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
       isScrolled 
         ? 'bg-white/95 backdrop-blur-lg shadow-2xl border-b border-gray-200/50' 
-        : 'bg-gradient-to-r from-[#0ea5e9] via-[#0284c7] to-[#0369a1]'
+        : 'bg-gradient-to-r from-primary-300 via-primary-400 to-primary-500'
     } ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo and Brand */}
           <div className="flex items-center space-x-4">
-            <div className={`logo-container w-16 h-16 flex items-center justify-center rounded-xl transition-all duration-300 ${
+            <div className={`w-16 h-16 flex items-center justify-center rounded-xl transition-all duration-300 ${
               isScrolled 
-                ? 'bg-[#0ea5e9] shadow-lg' 
-                : 'bg-white/10 backdrop-blur-sm border border-white/20'
+                ? 'bg-primary-300 shadow-lg' 
+                : 'bg-white/20 backdrop-blur-sm border border-white/30'
             }`}>
               <img 
-                src="/logo.png" 
+                src="/logo.jpg" 
                 alt="Gayathri Hospital Logo" 
                 className="w-12 h-12 object-contain"
                 onError={(e) => {
@@ -61,7 +61,7 @@ const Header = () => {
                   }
                 }}
               />
-              <div className="hidden w-8 h-8 items-center justify-center text-white font-bold text-xs">
+              <div className="hidden w-12 h-12 flex items-center justify-center text-white font-bold text-xl tracking-wider">
                 GH
               </div>
             </div>
@@ -83,35 +83,35 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#home" className={`text-sm font-medium transition-all duration-300 hover:scale-105 ${
               isScrolled 
-                ? 'text-gray-700 hover:text-[#0ea5e9]' 
+                ? 'text-gray-700 hover:text-primary-300' 
                 : 'text-white/90 hover:text-white'
             }`}>
               Home
             </a>
             <a href="#services" className={`text-sm font-medium transition-all duration-300 hover:scale-105 ${
               isScrolled 
-                ? 'text-gray-700 hover:text-[#0ea5e9]' 
+                ? 'text-gray-700 hover:text-primary-300' 
                 : 'text-white/90 hover:text-white'
             }`}>
               Services
             </a>
             <a href="#doctors" className={`text-sm font-medium transition-all duration-300 hover:scale-105 ${
               isScrolled 
-                ? 'text-gray-700 hover:text-[#0ea5e9]' 
+                ? 'text-gray-700 hover:text-primary-300' 
                 : 'text-white/90 hover:text-white'
             }`}>
               Doctors
             </a>
             <a href="#about" className={`text-sm font-medium transition-all duration-300 hover:scale-105 ${
               isScrolled 
-                ? 'text-gray-700 hover:text-[#0ea5e9]' 
+                ? 'text-gray-700 hover:text-primary-300' 
                 : 'text-white/90 hover:text-white'
             }`}>
               About
             </a>
             <a href="#contact" className={`text-sm font-medium transition-all duration-300 hover:scale-105 ${
               isScrolled 
-                ? 'text-gray-700 hover:text-[#0ea5e9]' 
+                ? 'text-gray-700 hover:text-primary-300' 
                 : 'text-white/90 hover:text-white'
             }`}>
               Contact
@@ -122,8 +122,8 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <button className={`px-6 py-2 rounded-full text-sm font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg ${
               isScrolled
-                ? 'bg-[#0ea5e9] text-white hover:bg-[#0284c7] shadow-md'
-                : 'bg-white text-[#0ea5e9] hover:bg-white/90 shadow-lg'
+                ? 'bg-primary-300 text-white hover:bg-primary-400 shadow-md'
+                : 'bg-white text-primary-300 hover:bg-white/90 shadow-lg'
             }`}>
               Book Appointment
             </button>
