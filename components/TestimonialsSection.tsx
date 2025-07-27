@@ -27,7 +27,7 @@ const TestimonialsSection = () => {
   ]
 
   return (
-    <section ref={ref} className="section-padding maroon-gradient">
+    <section ref={ref} className="section-padding hospital-gradient">
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
