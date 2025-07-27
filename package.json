@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "node deploy-simple.js"
+    "deploy": "npm run build && Copy-Item -Path \"out\\*\" -Destination \"docs\" -Recurse && git add . && git commit -m \"Update docs\" && git push origin main"
   },
   "dependencies": {
     "framer-motion": "^10.16.16",
